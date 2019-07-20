@@ -2,8 +2,7 @@
 const express = require("express");
 const app = express();
 const faker = require("faker");
-var hackerSpeak = faker.hacker.phrase();
-console.log(hackerSpeak);
+const hackerSpeak = faker.hacker.phrase();
 app.engine("html", require("ejs").renderFile);
 app.use(express.static("public"));
 
