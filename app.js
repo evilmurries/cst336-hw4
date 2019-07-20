@@ -1,6 +1,9 @@
 // Bring in packages
 const express = require("express");
 const app = express();
+const faker = require("faker");
+var hackerSpeak = faker.hacker.phrase();
+console.log(hackerSpeak);
 app.engine("html", require("ejs").renderFile);
 app.use(express.static("public"));
 
@@ -8,7 +11,7 @@ const port = 3000;
 
 // Routes
 app.get("/", function(req, res) {
-    res.render("index.html");
+    res.render("index.html", {"hackerTalk": hackerSpeak});
 });
 app.get("/firms", function(req, res) {
     res.render("firms.html");
