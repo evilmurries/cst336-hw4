@@ -1,0 +1,112 @@
+/*  Christopher Piwarski 26 June 2019  */
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(70, 134, 255);
+    font-family: 'B612 Mono', monospace;
+    font-size: 4em;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+body {
+    background-color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+nav a {
+    padding-top: 10px;
+    font-size: 1.3em;
+    padding: 20px;
+    padding-bottom: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+  }
+
+.paralink {
+    text-decoration: none;
+    color: #94A7F3;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+ul {
+    color: black;
+    font-size: 1em;
+    display: block;
+}
+
+li {
+    line-height: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.cybercrime {
+    font-style: italic;
+    font-size: 1em;
+}
+
+#crimeList{
+    justify-content: left;
+}
+
+#companies { 
+    text-align: center;
+    font-weight: italic;
+    font-size: 1.2em;
+}
+
+#reference {
+    font-style: italic;
+    font-size: .8em;
+}
+
+footer {
+    font-size: .8em;
+    color: #10355E;
+}
+
+blockquote {
+    display: block;
+    font-style: italic;
+    font-size: .8em;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: .8em;
+    font-style: italic;
+    caption-side: bottom;
+}
